@@ -1,0 +1,40 @@
+{
+  "name": "usi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon src/server/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/maps": "^0.4.5",
+    "@koa/cors": "^2.2.1",
+    "axios": "^0.17.1",
+    "axios-retry": "^3.0.2",
+    "chalk": "^2.3.2",
+    "cheerio": "^1.0.0-rc.2",
+    "commander": "^2.14.1",
+    "graphql": "^0.13.1",
+    "haversine": "^1.1.0",
+    "js-regression": "^1.0.10",
+    "js-sha1": "^0.6.0",
+    "jstat": "^1.7.1",
+    "koa": "^2.5.0",
+    "koa-graphql": "^0.7.5",
+    "koa-mount": "^3.0.0",
+    "neo4j-driver": "^1.5.3",
+    "ramda": "^0.25.0",
+    "recompose": "^0.26.0",
+    "rxjs": "^5.5.6",
+    "synaptic": "^1.1.4"
+  },
+  "devDependencies": {
+    "axios-mock-adapter": "^1.13.1",
+    "graphiql": "^0.11.11",
+    "jest": "^22.3.0",
+    "nodemon": "^1.17.1"
+  }
+}

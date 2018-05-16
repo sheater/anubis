@@ -1,0 +1,829 @@
+{
+  "meta_description": "Byt 2+1 100 m\u00b2 k prodeji Slovinsk\u00e1, Brno - Kr\u00e1lovo Pole; 499\u00a0000 K\u010d (v\u010detn\u011b poplatk\u016f, v\u010detn\u011b provize, v\u010detn\u011b pr\u00e1vn\u00edho servisu), terasa, cihlov\u00e1 stavba, st\u00e1tn\u00ed, obecn\u00ed vlastnictv\u00ed, ve velmi dobr\u00e9m stavu.",
+  "map": {
+    "geometry": [
+      {
+        "type": "linestring",
+        "data": [
+          [
+            49.2191960133163,
+            16.5947865686342
+          ],
+          [
+            49.2192079490689,
+            16.594769099774
+          ],
+          [
+            49.2192225254861,
+            16.5947558358153
+          ],
+          [
+            49.2192388623469,
+            16.5947453751227
+          ],
+          [
+            49.2192479109995,
+            16.594741546411
+          ],
+          [
+            49.2192578398746,
+            16.5947391193354
+          ],
+          [
+            49.2197928283708,
+            16.594432232738
+          ],
+          [
+            49.219941430768,
+            16.5943546147331
+          ],
+          [
+            49.2203726613065,
+            16.5941350224321
+          ],
+          [
+            49.2205338899044,
+            16.5940550621767
+          ],
+          [
+            49.2209687165987,
+            16.5938355804475
+          ],
+          [
+            49.221133579597,
+            16.5937529884837
+          ],
+          [
+            49.2219179889347,
+            16.5933634582309
+          ],
+          [
+            49.2220916161146,
+            16.5932976256713
+          ],
+          [
+            49.2231299146297,
+            16.5927624210869
+          ]
+        ]
+      }
+    ],
+    "lon": 16.593746421826,
+    "zoom": 15,
+    "bounding_box": {
+      "leftBottomBounding": {
+        "lat": 49.2191960133163,
+        "lon": 16.5927624210869
+      },
+      "rightTopBounding": {
+        "lat": 49.2231299146297,
+        "lon": 16.5947865686342
+      }
+    },
+    "lat": 49.2211468030825,
+    "type": "geometry"
+  },
+  "logged_in": false,
+  "_embedded": {
+    "note": {
+      "note": "",
+      "_links": {
+        "self": {
+          "href": "/cs/v2/note/3383386460"
+        }
+      },
+      "has_note": false
+    },
+    "favourite": {
+      "is_favourite": false,
+      "_links": {
+        "self": {
+          "href": "/cs/v2/favourite/3383386460"
+        }
+      }
+    },
+    "calculator": null,
+    "images": [
+      {
+        "kind": 2,
+        "_links": {
+          "dynamicDown": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_o/Ida3RD.jpeg?fl=res,{width},{height},3|shr,,20|jpg,90"
+          },
+          "dynamicUp": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_o/Ida3RD.jpeg?fl=res,{width},{height},3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90"
+          },
+          "self": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_o/Ida3RD.jpeg?fl=res,1920,1080,1|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+            "title": "11"
+          },
+          "dynamic": {
+            "href": "https://img.sreality.cz/dyn/dyn/{SIZE}/"
+          },
+          "gallery": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_o/Ida3RD.jpeg?fl=res,221,166,3|shr,,20|jpg,90"
+          },
+          "view": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_o/Ida3RD.jpeg?fl=res,749,562,3|shr,,20|jpg,90"
+          }
+        },
+        "id": 209726716,
+        "order": 1
+      },
+      {
+        "kind": 2,
+        "_links": {
+          "dynamicDown": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_H_k/U1JBuRF.jpeg?fl=res,{width},{height},3|shr,,20|jpg,90"
+          },
+          "dynamicUp": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_H_k/U1JBuRF.jpeg?fl=res,{width},{height},3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90"
+          },
+          "self": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_H_k/U1JBuRF.jpeg?fl=res,1920,1080,1|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+            "title": "12"
+          },
+          "dynamic": {
+            "href": "https://img.sreality.cz/dyn/dyn/{SIZE}/"
+          },
+          "gallery": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_H_k/U1JBuRF.jpeg?fl=res,221,166,3|shr,,20|jpg,90"
+          },
+          "view": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_H_k/U1JBuRF.jpeg?fl=res,749,562,3|shr,,20|jpg,90"
+          }
+        },
+        "id": 209726717,
+        "order": 4
+      },
+      {
+        "kind": 2,
+        "_links": {
+          "dynamicDown": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_n/sOABkwh.jpeg?fl=res,{width},{height},3|shr,,20|jpg,90"
+          },
+          "dynamicUp": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_n/sOABkwh.jpeg?fl=res,{width},{height},3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90"
+          },
+          "self": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_n/sOABkwh.jpeg?fl=res,1920,1080,1|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+            "title": "13"
+          },
+          "dynamic": {
+            "href": "https://img.sreality.cz/dyn/dyn/{SIZE}/"
+          },
+          "gallery": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_n/sOABkwh.jpeg?fl=res,221,166,3|shr,,20|jpg,90"
+          },
+          "view": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_n/sOABkwh.jpeg?fl=res,749,562,3|shr,,20|jpg,90"
+          }
+        },
+        "id": 209726718,
+        "order": 5
+      },
+      {
+        "kind": 2,
+        "_links": {
+          "dynamicDown": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_n/CfZBkwi.jpeg?fl=res,{width},{height},3|shr,,20|jpg,90"
+          },
+          "dynamicUp": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_n/CfZBkwi.jpeg?fl=res,{width},{height},3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90"
+          },
+          "self": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_n/CfZBkwi.jpeg?fl=res,1920,1080,1|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+            "title": "14"
+          },
+          "dynamic": {
+            "href": "https://img.sreality.cz/dyn/dyn/{SIZE}/"
+          },
+          "gallery": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_n/CfZBkwi.jpeg?fl=res,221,166,3|shr,,20|jpg,90"
+          },
+          "view": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_n/CfZBkwi.jpeg?fl=res,749,562,3|shr,,20|jpg,90"
+          }
+        },
+        "id": 209726719,
+        "order": 6
+      },
+      {
+        "kind": 2,
+        "_links": {
+          "dynamicDown": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_o/Wdp3RE.jpeg?fl=res,{width},{height},3|shr,,20|jpg,90"
+          },
+          "dynamicUp": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_o/Wdp3RE.jpeg?fl=res,{width},{height},3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90"
+          },
+          "self": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_o/Wdp3RE.jpeg?fl=res,1920,1080,1|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+            "title": "15"
+          },
+          "dynamic": {
+            "href": "https://img.sreality.cz/dyn/dyn/{SIZE}/"
+          },
+          "gallery": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_o/Wdp3RE.jpeg?fl=res,221,166,3|shr,,20|jpg,90"
+          },
+          "view": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_o/Wdp3RE.jpeg?fl=res,749,562,3|shr,,20|jpg,90"
+          }
+        },
+        "id": 209726720,
+        "order": 7
+      },
+      {
+        "kind": 2,
+        "_links": {
+          "dynamicDown": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_n/S4MBkwj.jpeg?fl=res,{width},{height},3|shr,,20|jpg,90"
+          },
+          "dynamicUp": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_n/S4MBkwj.jpeg?fl=res,{width},{height},3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90"
+          },
+          "self": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_n/S4MBkwj.jpeg?fl=res,1920,1080,1|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+            "title": "16"
+          },
+          "dynamic": {
+            "href": "https://img.sreality.cz/dyn/dyn/{SIZE}/"
+          },
+          "gallery": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_n/S4MBkwj.jpeg?fl=res,221,166,3|shr,,20|jpg,90"
+          },
+          "view": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_n/S4MBkwj.jpeg?fl=res,749,562,3|shr,,20|jpg,90"
+          }
+        },
+        "id": 209726721,
+        "order": 8
+      },
+      {
+        "kind": 2,
+        "_links": {
+          "dynamicDown": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_o/h6N3RF.jpeg?fl=res,{width},{height},3|shr,,20|jpg,90"
+          },
+          "dynamicUp": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_o/h6N3RF.jpeg?fl=res,{width},{height},3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90"
+          },
+          "self": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_o/h6N3RF.jpeg?fl=res,1920,1080,1|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+            "title": "17"
+          },
+          "dynamic": {
+            "href": "https://img.sreality.cz/dyn/dyn/{SIZE}/"
+          },
+          "gallery": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_o/h6N3RF.jpeg?fl=res,221,166,3|shr,,20|jpg,90"
+          },
+          "view": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_o/h6N3RF.jpeg?fl=res,749,562,3|shr,,20|jpg,90"
+          }
+        },
+        "id": 209726722,
+        "order": 9
+      },
+      {
+        "kind": 2,
+        "_links": {
+          "dynamicDown": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_n/SqiBkwk.jpeg?fl=res,{width},{height},3|shr,,20|jpg,90"
+          },
+          "dynamicUp": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_n/SqiBkwk.jpeg?fl=res,{width},{height},3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90"
+          },
+          "self": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_n/SqiBkwk.jpeg?fl=res,1920,1080,1|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+            "title": "18"
+          },
+          "dynamic": {
+            "href": "https://img.sreality.cz/dyn/dyn/{SIZE}/"
+          },
+          "gallery": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_n/SqiBkwk.jpeg?fl=res,221,166,3|shr,,20|jpg,90"
+          },
+          "view": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_n/SqiBkwk.jpeg?fl=res,749,562,3|shr,,20|jpg,90"
+          }
+        },
+        "id": 209726723,
+        "order": 10
+      },
+      {
+        "kind": 2,
+        "_links": {
+          "dynamicDown": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_H_l/Vhdtiu.jpeg?fl=res,{width},{height},3|shr,,20|jpg,90"
+          },
+          "dynamicUp": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_H_l/Vhdtiu.jpeg?fl=res,{width},{height},3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90"
+          },
+          "self": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_H_l/Vhdtiu.jpeg?fl=res,1920,1080,1|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+            "title": "19"
+          },
+          "dynamic": {
+            "href": "https://img.sreality.cz/dyn/dyn/{SIZE}/"
+          },
+          "gallery": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_H_l/Vhdtiu.jpeg?fl=res,221,166,3|shr,,20|jpg,90"
+          },
+          "view": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_H_l/Vhdtiu.jpeg?fl=res,749,562,3|shr,,20|jpg,90"
+          }
+        },
+        "id": 209726724,
+        "order": 11
+      },
+      {
+        "kind": 2,
+        "_links": {
+          "dynamicDown": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_n/lOfBkwl.jpeg?fl=res,{width},{height},3|shr,,20|jpg,90"
+          },
+          "dynamicUp": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_n/lOfBkwl.jpeg?fl=res,{width},{height},3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90"
+          },
+          "self": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_n/lOfBkwl.jpeg?fl=res,1920,1080,1|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+            "title": "20"
+          },
+          "dynamic": {
+            "href": "https://img.sreality.cz/dyn/dyn/{SIZE}/"
+          },
+          "gallery": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_n/lOfBkwl.jpeg?fl=res,221,166,3|shr,,20|jpg,90"
+          },
+          "view": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_n/lOfBkwl.jpeg?fl=res,749,562,3|shr,,20|jpg,90"
+          }
+        },
+        "id": 209726725,
+        "order": 12
+      },
+      {
+        "kind": 2,
+        "_links": {
+          "dynamicDown": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_H_k/u09BuRG.jpeg?fl=res,{width},{height},3|shr,,20|jpg,90"
+          },
+          "dynamicUp": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_H_k/u09BuRG.jpeg?fl=res,{width},{height},3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90"
+          },
+          "self": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_H_k/u09BuRG.jpeg?fl=res,1920,1080,1|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+            "title": "21"
+          },
+          "dynamic": {
+            "href": "https://img.sreality.cz/dyn/dyn/{SIZE}/"
+          },
+          "gallery": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_H_k/u09BuRG.jpeg?fl=res,221,166,3|shr,,20|jpg,90"
+          },
+          "view": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_H_k/u09BuRG.jpeg?fl=res,749,562,3|shr,,20|jpg,90"
+          }
+        },
+        "id": 209726726,
+        "order": 13
+      },
+      {
+        "kind": 2,
+        "_links": {
+          "dynamicDown": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_n/3cwBkwm.jpeg?fl=res,{width},{height},3|shr,,20|jpg,90"
+          },
+          "dynamicUp": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_n/3cwBkwm.jpeg?fl=res,{width},{height},3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90"
+          },
+          "self": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_n/3cwBkwm.jpeg?fl=res,1920,1080,1|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+            "title": "22"
+          },
+          "dynamic": {
+            "href": "https://img.sreality.cz/dyn/dyn/{SIZE}/"
+          },
+          "gallery": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_n/3cwBkwm.jpeg?fl=res,221,166,3|shr,,20|jpg,90"
+          },
+          "view": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_n/3cwBkwm.jpeg?fl=res,749,562,3|shr,,20|jpg,90"
+          }
+        },
+        "id": 209726727,
+        "order": 14
+      },
+      {
+        "kind": 2,
+        "_links": {
+          "dynamicDown": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_H_l/LHrtiv.jpeg?fl=res,{width},{height},3|shr,,20|jpg,90"
+          },
+          "dynamicUp": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_H_l/LHrtiv.jpeg?fl=res,{width},{height},3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90"
+          },
+          "self": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_H_l/LHrtiv.jpeg?fl=res,1920,1080,1|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+            "title": "23"
+          },
+          "dynamic": {
+            "href": "https://img.sreality.cz/dyn/dyn/{SIZE}/"
+          },
+          "gallery": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_H_l/LHrtiv.jpeg?fl=res,221,166,3|shr,,20|jpg,90"
+          },
+          "view": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_H_l/LHrtiv.jpeg?fl=res,749,562,3|shr,,20|jpg,90"
+          }
+        },
+        "id": 209726728,
+        "order": 15
+      },
+      {
+        "kind": 2,
+        "_links": {
+          "dynamicDown": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_o/fPY3RG.jpeg?fl=res,{width},{height},3|shr,,20|jpg,90"
+          },
+          "dynamicUp": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_o/fPY3RG.jpeg?fl=res,{width},{height},3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90"
+          },
+          "self": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_o/fPY3RG.jpeg?fl=res,1920,1080,1|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+            "title": "24"
+          },
+          "dynamic": {
+            "href": "https://img.sreality.cz/dyn/dyn/{SIZE}/"
+          },
+          "gallery": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_o/fPY3RG.jpeg?fl=res,221,166,3|shr,,20|jpg,90"
+          },
+          "view": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_o/fPY3RG.jpeg?fl=res,749,562,3|shr,,20|jpg,90"
+          }
+        },
+        "id": 209726729,
+        "order": 16
+      },
+      {
+        "kind": 2,
+        "_links": {
+          "dynamicDown": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_o/IpO3RH.jpeg?fl=res,{width},{height},3|shr,,20|jpg,90"
+          },
+          "dynamicUp": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_o/IpO3RH.jpeg?fl=res,{width},{height},3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90"
+          },
+          "self": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_o/IpO3RH.jpeg?fl=res,1920,1080,1|wrm,/watermark/sreality.png,10|shr,,20|jpg,90",
+            "title": "25"
+          },
+          "dynamic": {
+            "href": "https://img.sreality.cz/dyn/dyn/{SIZE}/"
+          },
+          "gallery": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_o/IpO3RH.jpeg?fl=res,221,166,3|shr,,20|jpg,90"
+          },
+          "view": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_G_o/IpO3RH.jpeg?fl=res,749,562,3|shr,,20|jpg,90"
+          }
+        },
+        "id": 209726730,
+        "order": 17
+      }
+    ],
+    "seller": {
+      "in_banner_seller": false,
+      "specialization_string": "",
+      "specialization": {
+        "category": [
+          {
+            "category_main_cb": 1,
+            "num": 11
+          },
+          {
+            "category_main_cb": 2,
+            "num": 1
+          },
+          {
+            "category_main_cb": 3,
+            "num": 1
+          },
+          {
+            "category_main_cb": 4,
+            "num": 2
+          }
+        ],
+        "type": [
+          {
+            "num": 14,
+            "category_type_cb": 1
+          },
+          {
+            "num": 1,
+            "category_type_cb": 2
+          }
+        ]
+      },
+      "user_id": 51215,
+      "phones": [
+        {
+          "code": "420",
+          "type": "MOB",
+          "number": "777197791"
+        }
+      ],
+      "image": "https://d18-a.sdn.szn.cz/d_18/c_img_H_l/xHEtit.jpeg?fl=res,70,104,3|shr,,20|jpg,90",
+      "_links": {
+        "self": {
+          "profile": "/seller/1/doc",
+          "href": "/cs/v2/seller/51215"
+        }
+      },
+      "active": true,
+      "_embedded": {
+        "premise": {
+          "www": "http://www.veritably.cz",
+          "ico": 1663682,
+          "name": "veritably s.r.o.",
+          "locality": {
+            "lat": 49.2022576312,
+            "lon": 16.6371943902225
+          },
+          "url": "veritably-s-r-o-Brno-Zidenice",
+          "phones": [
+            {
+              "code": "420",
+              "type": "TEL",
+              "number": "777197791"
+            }
+          ],
+          "ask_id": 12788580,
+          "company_id": 5923,
+          "allow_calculator": 1,
+          "logo_small": "https://d48-a.sdn.szn.cz/d_48/c_img_G_C/dFTBZY.png?fl=res,70,70,1,ffffff",
+          "company_paid_firmy": 1,
+          "_links": {
+            "self": {
+              "profile": "/companies/1/doc",
+              "href": "/cs/v2/companies/10246"
+            }
+          },
+          "www_visible": "http://www.veritably.cz",
+          "id": 10246,
+          "logo": "https://d48-a.sdn.szn.cz/d_48/c_img_G_C/dFTBZY.png?fl=res,140,140,3,ffffff",
+          "company_subject_id": 3797465,
+          "email": "info@veritably.cz",
+          "address": "Kopern\u00edkova 2409/3, 61500 Brno - \u017didenice",
+          "description": "Zam\u011b\u0159ujeme se od roku 1998 na poskytov\u00e1n\u00ed profesion\u00e1ln\u00edch realitn\u00edch slu\u017eeb na\u0161im klient\u016fm. Na\u0161e p\u0159ednosti: individu\u00e1ln\u00ed p\u0159\u00edstup ke ka\u017ed\u00e9mu klientovi, letit\u00e9 zku\u0161enosti v oboru, st\u00e1l\u00e9 odborn\u00e9 vzd\u011bl\u00e1v\u00e1n\u00ed, flexibilita. M\u016f\u017eete porovnat va\u0161e dosavadn\u00ed realitn\u00ed zku\u0161enosti s na\u0161\u00edm p\u0159\u00edstupem k realit\u00e1m."
+        }
+      },
+      "user_name": "Bc. Radim Ou\u0159edn\u00edk",
+      "email": "ourednik@veritably.cz"
+    }
+  },
+  "name": {
+    "name": "N\u00e1zev",
+    "value": "Prodej bytu 2+1\u00a0100\u00a0m\u00b2"
+  },
+  "locality": {
+    "name": "Adresa",
+    "value": "Slovinsk\u00e1, Brno - Kr\u00e1lovo Pole"
+  },
+  "text": {
+    "name": "Popis",
+    "value": "Jedn\u00e1 se o p\u0159enech\u00e1n\u00ed n\u00e1jmu jednotky za odstupn\u00e9 - byt o velikosti 2+1 o celkov\u00e9 podlahov\u00e9 plo\u0161e 97.9 m2 nach\u00e1zej\u00edc\u00ed se ve druh\u00e9m nadzemn\u00edm podla\u017e\u00ed (1.p./2) cihlov\u00e9ho domu bez v\u00fdtahu v Brn\u011b v m\u011bstsk\u00e9 \u010d\u00e1sti Kr\u00e1lovo Pole na ulici Slovinsk\u00e1.\r\n\r\nDispozice:\r\n\r\nvstupn\u00ed chodba s v\u011b\u0161\u00e1kovou st\u011bnou, botn\u00edkem a plynov\u00fdm kotlem, koupelna s oknem, vanou, umyvadlem a m\u00edstem na pra\u010dku, toaleta zvl\u00e1\u0161\u0165, velk\u00e1 kuchyn\u011b s kuchy\u0148skou linkou, barov\u00fdm pultem, j\u00eddelnou a v\u00fdstupem na terasu s n\u00e1dhern\u00fdm v\u00fdhledem do zahrad (orientace v\u00fdchod), ob\u00fdvac\u00ed pokoj s prosklenou nikou do klidn\u00e9 ulice s v\u00fdhledem do parku, lo\u017enice se sk\u0159\u00edn\u011bmi a m\u00edstem na pracovnu orientov\u00e1na stejn\u011b jako ob\u00fdvac\u00ed pokoj na z\u00e1pad.\r\n\r\nD\u016fm je pr\u016fb\u011b\u017en\u011b udr\u017eov\u00e1n a je obydlen solidn\u00edmi plat\u00edc\u00edmi n\u00e1jemn\u00edky. Existuje mo\u017enost vyu\u017e\u00edv\u00e1n\u00ed zahrady o v\u00fdm\u011b\u0159e 421 m2 nach\u00e1zej\u00edc\u00ed se za domem.\r\n\r\nN\u00e1jemn\u00e9 - 9.900 K\u010d/m\u011bs\u00edc. Prohl\u00eddky jsou mo\u017en\u00e9 po p\u0159ede\u0161l\u00e9 telefonick\u00e9 domluv\u011b s makl\u00e9\u0159em. Uvoln\u011bn\u00ed bytu - dohodou."
+  },
+  "price_czk": {
+    "unit": "",
+    "name": "Celkov\u00e1 cena",
+    "value": "499\u00a0000",
+    "value_raw": 499000
+  },
+  "is_topped": true,
+  "_links": {
+    "self": {
+      "profile": "/estates/1/doc",
+      "href": "/cs/v2/estates/3383386460",
+      "title": "Detail inzeratu"
+    },
+    "local_search": {
+      "href": "/cs/v2/estates?category_main_cb=1&region=Brno&region_entity_type=osmm&category_type_cb=1",
+      "title": "Prodej byt\u016f Brno"
+    },
+    "broader_search": {
+      "href": "/cs/v2/estates?category_main_cb=1&locality_district_id=72&category_type_cb=1",
+      "title": "Prodej byt\u016f Brno-m\u011bsto"
+    }
+  },
+  "panorama": 1,
+  "seo": {
+    "category_main_cb": 1,
+    "category_sub_cb": 5,
+    "category_type_cb": 1,
+    "locality": "brno-kralovo-pole-slovinska"
+  },
+  "rus": false,
+  "is_topped_today": false,
+  "items": [
+    {
+      "negotiation": false,
+      "name": "Celkov\u00e1 cena",
+      "notes": [
+        "v\u010detn\u011b provize",
+        "v\u010detn\u011b poplatk\u016f",
+        "v\u010detn\u011b pr\u00e1vn\u00edho servisu"
+      ],
+      "value": "499\u00a0000",
+      "currency": "K\u010d",
+      "type": "price_czk",
+      "unit": "za nemovitost"
+    },
+    {
+      "type": "string",
+      "name": "Pozn\u00e1mka k cen\u011b",
+      "value": "v\u010detn\u011b poplatk\u016f, v\u010detn\u011b provize, v\u010detn\u011b pr\u00e1vn\u00edho servisu"
+    },
+    {
+      "type": "string",
+      "name": "ID zak\u00e1zky",
+      "value": "00231"
+    },
+    {
+      "type": "edited",
+      "name": "Aktualizace",
+      "value": "28.02.2018",
+      "topped": false
+    },
+    {
+      "type": "string",
+      "name": "Stavba",
+      "value": "Cihlov\u00e1"
+    },
+    {
+      "type": "string",
+      "name": "Stav objektu",
+      "value": "Velmi dobr\u00fd"
+    },
+    {
+      "type": "string",
+      "name": "Vlastnictv\u00ed",
+      "value": "St\u00e1tn\u00ed/obecn\u00ed"
+    },
+    {
+      "type": "string",
+      "name": "Podla\u017e\u00ed",
+      "value": "2. podla\u017e\u00ed z celkem 3"
+    },
+    {
+      "unit": "m2",
+      "type": "area",
+      "name": "U\u017eitn\u00e1 plocha",
+      "value": "100"
+    },
+    {
+      "unit": "m2",
+      "type": "area",
+      "name": "Plocha zahrady",
+      "value": "421"
+    },
+    {
+      "unit": "m2",
+      "type": "area",
+      "name": "Terasa",
+      "value": "6"
+    },
+    {
+      "unit": "m2",
+      "type": "area",
+      "name": "Sklep",
+      "value": "6"
+    },
+    {
+      "type": "set",
+      "name": "Voda",
+      "value": [
+        {
+          "name": "Voda",
+          "value": "D\u00e1lkov\u00fd vodovod"
+        }
+      ]
+    },
+    {
+      "type": "set",
+      "name": "Topen\u00ed",
+      "value": [
+        {
+          "name": "Topen\u00ed",
+          "value": "Lok\u00e1ln\u00ed plynov\u00e9"
+        }
+      ]
+    },
+    {
+      "type": "set",
+      "name": "Plyn",
+      "value": [
+        {
+          "name": "Plyn",
+          "value": "Plynovod"
+        }
+      ]
+    },
+    {
+      "type": "set",
+      "name": "Odpad",
+      "value": [
+        {
+          "name": "Odpad",
+          "value": "Ve\u0159ejn\u00e1 kanalizace"
+        }
+      ]
+    },
+    {
+      "type": "set",
+      "name": "Telekomunikace",
+      "value": [
+        {
+          "name": "Telekomunikace",
+          "value": "Internet"
+        },
+        {
+          "name": "Telekomunikace",
+          "value": "Kabelov\u00e1 televize"
+        }
+      ]
+    },
+    {
+      "type": "set",
+      "name": "Elekt\u0159ina",
+      "value": [
+        {
+          "name": "Elekt\u0159ina",
+          "value": "230V"
+        }
+      ]
+    },
+    {
+      "type": "set",
+      "name": "Doprava",
+      "value": [
+        {
+          "name": "Doprava",
+          "value": "Vlak"
+        },
+        {
+          "name": "Doprava",
+          "value": "Silnice"
+        },
+        {
+          "name": "Doprava",
+          "value": "MHD"
+        },
+        {
+          "name": "Doprava",
+          "value": "Autobus"
+        }
+      ]
+    },
+    {
+      "type": "set",
+      "name": "Komunikace",
+      "value": [
+        {
+          "name": "Komunikace",
+          "value": "Asfaltov\u00e1"
+        }
+      ]
+    },
+    {
+      "type": "energy_efficiency_rating",
+      "name": "Energetick\u00e1 n\u00e1ro\u010dnost budovy",
+      "value": "T\u0159\u00edda G - Mimo\u0159\u00e1dn\u011b nehospod\u00e1rn\u00e1"
+    },
+    {
+      "type": "string",
+      "name": "Vybaven\u00ed",
+      "value": "\u010c\u00e1ste\u010dn\u011b"
+    },
+    {
+      "type": "boolean",
+      "name": "V\u00fdtah",
+      "value": false
+    }
+  ],
+  "codeItems": {
+    "something_more3": [
+      3310
+    ],
+    "something_more1": [
+      3110,
+      3120
+    ],
+    "ownership": 3,
+    "building_type_search": 2
+  },
+  "locality_district_id": 72
+}

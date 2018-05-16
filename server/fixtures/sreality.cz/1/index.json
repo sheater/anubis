@@ -1,0 +1,636 @@
+{
+  "meta_description": "Byt 3+kk 93 m\u00b2 k prodeji Brno - Brno-m\u011bsto; 5\u00a0900\u00a0000 K\u010d (Rezervace), terasa, parkovac\u00ed m\u00edsto, cihlov\u00e1 stavba, osobn\u00ed vlastnictv\u00ed, po rekonstrukci.",
+  "map": {
+    "geometry": [
+      {
+        "type": "polygon",
+        "data": [
+          [
+            49.1979166173599,
+            16.6143683234182
+          ],
+          [
+            49.1960020511923,
+            16.6159218103933
+          ],
+          [
+            49.1959045978435,
+            16.6156106356926
+          ],
+          [
+            49.194943017653,
+            16.6162634215923
+          ],
+          [
+            49.1920244244982,
+            16.615056722377
+          ],
+          [
+            49.1916261114769,
+            16.6145381842129
+          ],
+          [
+            49.1914386655151,
+            16.6146143342663
+          ],
+          [
+            49.1906336066897,
+            16.6140140655482
+          ],
+          [
+            49.1894555784473,
+            16.6107254177403
+          ],
+          [
+            49.1888919998488,
+            16.6101367586869
+          ],
+          [
+            49.1891510064316,
+            16.6084237534145
+          ],
+          [
+            49.1892238857972,
+            16.6062224156715
+          ],
+          [
+            49.1898044259957,
+            16.6077702277859
+          ],
+          [
+            49.1900117437204,
+            16.6078788693139
+          ],
+          [
+            49.1903022864464,
+            16.6059003382396
+          ],
+          [
+            49.1906110744582,
+            16.6050590731106
+          ],
+          [
+            49.1910291456976,
+            16.6048843986425
+          ],
+          [
+            49.1916875669046,
+            16.6052589314981
+          ],
+          [
+            49.1929205733188,
+            16.6048185685073
+          ],
+          [
+            49.1925481326424,
+            16.5998910546608
+          ],
+          [
+            49.1928129850661,
+            16.5980826192825
+          ],
+          [
+            49.1933473794078,
+            16.596885333082
+          ],
+          [
+            49.194167359209,
+            16.5960341887207
+          ],
+          [
+            49.195626979248,
+            16.5953522884191
+          ],
+          [
+            49.1970269332498,
+            16.5954320029516
+          ],
+          [
+            49.1972212729364,
+            16.5950094389934
+          ],
+          [
+            49.1971078083463,
+            16.5941903923478
+          ],
+          [
+            49.1982243898039,
+            16.593812551161
+          ],
+          [
+            49.1983841427385,
+            16.5940613792471
+          ],
+          [
+            49.1981603084803,
+            16.5976372954946
+          ],
+          [
+            49.197642445911,
+            16.59926948875
+          ],
+          [
+            49.1968377610863,
+            16.600918486629
+          ],
+          [
+            49.1980007928844,
+            16.6024462645415
+          ],
+          [
+            49.198789910661,
+            16.6047224805743
+          ],
+          [
+            49.1990889052382,
+            16.6052645839816
+          ],
+          [
+            49.1992892283803,
+            16.6051404367437
+          ],
+          [
+            49.2002998113405,
+            16.608037504191
+          ],
+          [
+            49.2000095504187,
+            16.6094333457535
+          ],
+          [
+            49.1986300535305,
+            16.6134121300925
+          ],
+          [
+            49.1979166173599,
+            16.6143683234182
+          ]
+        ]
+      }
+    ],
+    "lon": 16.6110850074835,
+    "zoom": 14,
+    "bounding_box": {
+      "leftBottomBounding": {
+        "lat": 49.1888919998488,
+        "lon": 16.593812551161
+      },
+      "rightTopBounding": {
+        "lat": 49.2002998113405,
+        "lon": 16.6162634215923
+      }
+    },
+    "lat": 49.1918641770596,
+    "type": "geometry"
+  },
+  "logged_in": false,
+  "_embedded": {
+    "note": {
+      "note": "",
+      "_links": {
+        "self": {
+          "href": "/cs/v2/note/2733695324"
+        }
+      },
+      "has_note": false
+    },
+    "favourite": {
+      "is_favourite": false,
+      "_links": {
+        "self": {
+          "href": "/cs/v2/favourite/2733695324"
+        }
+      }
+    },
+    "calculator": null,
+    "images": [
+      {
+        "kind": 2,
+        "_links": {
+          "dynamicDown": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_E_t/bAdB5SO.jpeg?fl=res,{width},{height},3|shr,,20|jpg,90"
+          },
+          "dynamicUp": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_E_t/bAdB5SO.jpeg?fl=res,{width},{height},3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90"
+          },
+          "self": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_E_t/bAdB5SO.jpeg?fl=res,1920,1080,1|wrm,/watermark/sreality.png,10|shr,,20|jpg,90"
+          },
+          "dynamic": {
+            "href": "https://img.sreality.cz/dyn/dyn/{SIZE}/"
+          },
+          "gallery": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_E_t/bAdB5SO.jpeg?fl=res,221,166,3|shr,,20|jpg,90"
+          },
+          "view": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_E_t/bAdB5SO.jpeg?fl=res,749,562,3|shr,,20|jpg,90"
+          }
+        },
+        "id": 210691613,
+        "order": 1
+      },
+      {
+        "kind": 2,
+        "_links": {
+          "dynamicDown": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_E_t/CFrB5SP.jpeg?fl=res,{width},{height},3|shr,,20|jpg,90"
+          },
+          "dynamicUp": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_E_t/CFrB5SP.jpeg?fl=res,{width},{height},3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90"
+          },
+          "self": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_E_t/CFrB5SP.jpeg?fl=res,1920,1080,1|wrm,/watermark/sreality.png,10|shr,,20|jpg,90"
+          },
+          "dynamic": {
+            "href": "https://img.sreality.cz/dyn/dyn/{SIZE}/"
+          },
+          "gallery": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_E_t/CFrB5SP.jpeg?fl=res,221,166,3|shr,,20|jpg,90"
+          },
+          "view": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_E_t/CFrB5SP.jpeg?fl=res,749,562,3|shr,,20|jpg,90"
+          }
+        },
+        "id": 210691614,
+        "order": 2
+      },
+      {
+        "kind": 2,
+        "_links": {
+          "dynamicDown": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_E_s/63WB7Ea.jpeg?fl=res,{width},{height},3|shr,,20|jpg,90"
+          },
+          "dynamicUp": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_E_s/63WB7Ea.jpeg?fl=res,{width},{height},3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90"
+          },
+          "self": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_E_s/63WB7Ea.jpeg?fl=res,1920,1080,1|wrm,/watermark/sreality.png,10|shr,,20|jpg,90"
+          },
+          "dynamic": {
+            "href": "https://img.sreality.cz/dyn/dyn/{SIZE}/"
+          },
+          "gallery": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_E_s/63WB7Ea.jpeg?fl=res,221,166,3|shr,,20|jpg,90"
+          },
+          "view": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_E_s/63WB7Ea.jpeg?fl=res,749,562,3|shr,,20|jpg,90"
+          }
+        },
+        "id": 210691615,
+        "order": 2
+      },
+      {
+        "kind": 2,
+        "_links": {
+          "dynamicDown": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_F_o/X9g3Ce.jpeg?fl=res,{width},{height},3|shr,,20|jpg,90"
+          },
+          "dynamicUp": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_F_o/X9g3Ce.jpeg?fl=res,{width},{height},3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90"
+          },
+          "self": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_F_o/X9g3Ce.jpeg?fl=res,1920,1080,1|wrm,/watermark/sreality.png,10|shr,,20|jpg,90"
+          },
+          "dynamic": {
+            "href": "https://img.sreality.cz/dyn/dyn/{SIZE}/"
+          },
+          "gallery": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_F_o/X9g3Ce.jpeg?fl=res,221,166,3|shr,,20|jpg,90"
+          },
+          "view": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_F_o/X9g3Ce.jpeg?fl=res,749,562,3|shr,,20|jpg,90"
+          }
+        },
+        "id": 210691617,
+        "order": 2
+      },
+      {
+        "kind": 2,
+        "_links": {
+          "dynamicDown": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_E_t/PPAB5SQ.jpeg?fl=res,{width},{height},3|shr,,20|jpg,90"
+          },
+          "dynamicUp": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_E_t/PPAB5SQ.jpeg?fl=res,{width},{height},3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90"
+          },
+          "self": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_E_t/PPAB5SQ.jpeg?fl=res,1920,1080,1|wrm,/watermark/sreality.png,10|shr,,20|jpg,90"
+          },
+          "dynamic": {
+            "href": "https://img.sreality.cz/dyn/dyn/{SIZE}/"
+          },
+          "gallery": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_E_t/PPAB5SQ.jpeg?fl=res,221,166,3|shr,,20|jpg,90"
+          },
+          "view": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_E_t/PPAB5SQ.jpeg?fl=res,749,562,3|shr,,20|jpg,90"
+          }
+        },
+        "id": 210691618,
+        "order": 2
+      },
+      {
+        "kind": 2,
+        "_links": {
+          "dynamicDown": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_E_s/r0rB7Eb.jpeg?fl=res,{width},{height},3|shr,,20|jpg,90"
+          },
+          "dynamicUp": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_E_s/r0rB7Eb.jpeg?fl=res,{width},{height},3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90"
+          },
+          "self": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_E_s/r0rB7Eb.jpeg?fl=res,1920,1080,1|wrm,/watermark/sreality.png,10|shr,,20|jpg,90"
+          },
+          "dynamic": {
+            "href": "https://img.sreality.cz/dyn/dyn/{SIZE}/"
+          },
+          "gallery": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_E_s/r0rB7Eb.jpeg?fl=res,221,166,3|shr,,20|jpg,90"
+          },
+          "view": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_E_s/r0rB7Eb.jpeg?fl=res,749,562,3|shr,,20|jpg,90"
+          }
+        },
+        "id": 210691619,
+        "order": 2
+      },
+      {
+        "kind": 2,
+        "_links": {
+          "dynamicDown": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_E_s/bZFB7Ec.jpeg?fl=res,{width},{height},3|shr,,20|jpg,90"
+          },
+          "dynamicUp": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_E_s/bZFB7Ec.jpeg?fl=res,{width},{height},3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90"
+          },
+          "self": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_E_s/bZFB7Ec.jpeg?fl=res,1920,1080,1|wrm,/watermark/sreality.png,10|shr,,20|jpg,90"
+          },
+          "dynamic": {
+            "href": "https://img.sreality.cz/dyn/dyn/{SIZE}/"
+          },
+          "gallery": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_E_s/bZFB7Ec.jpeg?fl=res,221,166,3|shr,,20|jpg,90"
+          },
+          "view": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_E_s/bZFB7Ec.jpeg?fl=res,749,562,3|shr,,20|jpg,90"
+          }
+        },
+        "id": 210691620,
+        "order": 2
+      },
+      {
+        "kind": 2,
+        "_links": {
+          "dynamicDown": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_F_o/hN03Cf.jpeg?fl=res,{width},{height},3|shr,,20|jpg,90"
+          },
+          "dynamicUp": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_F_o/hN03Cf.jpeg?fl=res,{width},{height},3|wrm,/watermark/sreality.png,10|shr,,20|jpg,90"
+          },
+          "self": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_F_o/hN03Cf.jpeg?fl=res,1920,1080,1|wrm,/watermark/sreality.png,10|shr,,20|jpg,90"
+          },
+          "dynamic": {
+            "href": "https://img.sreality.cz/dyn/dyn/{SIZE}/"
+          },
+          "gallery": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_F_o/hN03Cf.jpeg?fl=res,221,166,3|shr,,20|jpg,90"
+          },
+          "view": {
+            "href": "https://d18-a.sdn.szn.cz/d_18/c_img_F_o/hN03Cf.jpeg?fl=res,749,562,3|shr,,20|jpg,90"
+          }
+        },
+        "id": 210691621,
+        "order": 2
+      }
+    ],
+    "seller": {
+      "in_banner_seller": false,
+      "specialization_string": "",
+      "specialization": {
+        "category": [
+          {
+            "category_main_cb": 1,
+            "num": 24
+          },
+          {
+            "category_main_cb": 2,
+            "num": 2
+          },
+          {
+            "category_main_cb": 3,
+            "num": 2
+          },
+          {
+            "category_main_cb": 4,
+            "num": 6
+          }
+        ],
+        "type": [
+          {
+            "num": 29,
+            "category_type_cb": 1
+          },
+          {
+            "num": 5,
+            "category_type_cb": 2
+          }
+        ]
+      },
+      "user_id": 27732,
+      "phones": [
+        {
+          "code": "",
+          "type": "TEL",
+          "number": "545215608"
+        }
+      ],
+      "image": "",
+      "_links": {
+        "self": {
+          "profile": "/seller/1/doc",
+          "href": "/cs/v2/seller/27732"
+        }
+      },
+      "active": true,
+      "_embedded": {
+        "premise": {
+          "www": "http://www.attiko.cz",
+          "ico": 25337131,
+          "name": "ATTIKO, s.r.o.",
+          "locality": {
+            "lat": 49.2034738722815,
+            "lon": 16.6072297195478
+          },
+          "url": "ATTIKO-s-r-o-Brno-Cerna-Pole",
+          "phones": [
+            {
+              "code": "420",
+              "type": "TEL",
+              "number": "545215608"
+            },
+            {
+              "code": "420",
+              "type": "TEL",
+              "number": "603414723"
+            },
+            {
+              "code": "420",
+              "type": "TEL",
+              "number": "605299899"
+            }
+          ],
+          "ask_id": 439221,
+          "company_id": 377,
+          "allow_calculator": 1,
+          "logo_small": "https://d48-a.sdn.szn.cz/d_48/c_img_H_B/ViSRkR.png?fl=res,70,70,1,ffffff",
+          "company_paid_firmy": 0,
+          "_links": {
+            "self": {
+              "profile": "/companies/1/doc",
+              "href": "/cs/v2/companies/784"
+            }
+          },
+          "www_visible": "http://www.attiko.cz",
+          "id": 784,
+          "logo": "https://d48-a.sdn.szn.cz/d_48/c_img_H_B/ViSRkR.png?fl=res,140,140,3,ffffff",
+          "company_subject_id": 2113643,
+          "email": "info@attiko.cz",
+          "address": "Lidick\u00e1 1875/40, 60200 Brno - \u010cern\u00e1 Pole",
+          "description": "Zab\u00fdv\u00e1me se zprost\u0159edkov\u00e1v\u00e1n\u00edm prodeje a pron\u00e1jmu nemovitost\u00ed. V nab\u00eddce naleznete byty i rodinn\u00e9 domy."
+        }
+      },
+      "user_name": "Tom\u00e1\u0161 Tvrd\u00edk",
+      "email": "info@attiko.cz"
+    }
+  },
+  "name": {
+    "name": "N\u00e1zev",
+    "value": "Prodej bytu 3+kk 93\u00a0m\u00b2"
+  },
+  "locality": {
+    "name": "Adresa",
+    "value": "Brno - Brno-m\u011bsto"
+  },
+  "text": {
+    "name": "Popis",
+    "value": "V\u00fdstavba a prodej nov\u00fdch p\u016fdn\u00edch byt\u016f v historick\u00e9m centru m\u011bsta s velkoplo\u0161n\u00fdmi terasami s kr\u00e1sn\u00fdmi v\u00fdhledy na m\u011bsto, mimo jin\u00e9 na katedr\u00e1lu Petra a Pavla a hrad \u0160pilberk. \r\nByty OV 2kk, 3kk a 4kk s v\u00fdm\u011brami 70 m2 - 115 m2 + terasy 20 \u2013 50 m2 orientovan\u00fdmi v\u017edy do vnitrobloku.\r\nSituov\u00e1no v n\u00e1dhern\u00e9m, p\u016fvodn\u011b barokn\u00edm dom\u011b z r. 1843, kdy byl p\u0159estav\u011bn v mohutn\u00fd \u010din\u017eovn\u00ed d\u016fm v pozdn\u011b klasicistn\u00edm slohu. \r\nB\u011bhem v\u00fdstavby nov\u00fdch byt\u016f bude v dom\u011b dokon\u010dena kompletn\u00ed rekonstrukce budovy \u2013 nov\u00e9 fas\u00e1dy, nov\u00e1 okna, nov\u00fd v\u00fdtah, nov\u00e1 st\u0159echa, nov\u00e9 ve\u0161ker\u00e9 IS, chodby domu a sklepy.\r\nByty jsou v\u0161echny dvoupodla\u017en\u00ed (mezonetov\u00e9), v\u0161echny v 3.pat\u0159e domu s nov\u00fdm v\u00fdtahem. Atypick\u00e9 \u0159e\u0161en\u00ed byt\u016f s otev\u0159enou dispozic\u00ed, kde ob\u00fdvac\u00ed \u010d\u00e1sti voln\u011b navazuj\u00ed na kuchyn\u011b s j\u00eddelnami, velkoplo\u0161n\u00e9 terasy v pat\u0159e jsou samostatn\u011b p\u0159\u00edstupn\u00ed jak ze schodi\u0161t\u011b, tak p\u0159\u00edmo z pokoj\u016f. Byty v luxusn\u00edm proveden\u00ed a vybaven\u00ed, interi\u00e9ry navrhovan\u00e9 bytov\u00fdm architektem. \r\nByty za uvedenou cenu budou kompletn\u011b dokon\u010deny a p\u0159ipraveny k nast\u011bhov\u00e1n\u00ed ve vysok\u00e9m standardu - podlahov\u00e9 vyt\u00e1p\u011bn\u00ed, klimatizace (pro chlazen\u00ed i vyt\u00e1p\u011bn\u00ed), regul\u00e1tor teploty v ka\u017ed\u00e9 m\u00edstnosti. \r\nV cen\u011b nen\u00ed zahrnuta pouze kuch.linka, jinak je tam v\u0161e, v\u010detn\u011b kone\u010dn\u00e9 vrstvy podlah a vybaven\u00ed koupelen (tyto mo\u017eno vybrat dle vlastn\u00edho v\u00fdb\u011bru).  \r\nV cen\u00e1ch byt\u016f je zahrnuta DPH.\r\nV\u0161e je zd\u011bn\u00e9, zateplen\u00e9. Energetick\u00e1 n\u00e1ro\u010dnost budovy: T\u0159\u00edda B - Velmi \u00fasporn\u00e1.\r\nParkov\u00e1n\u00ed je mo\u017eno na p\u0159\u00e1n\u00ed dohodnout v bl\u00edzk\u00e9m v parkovac\u00edm dom\u011b.\r\nV m\u00edst\u011b kvalitn\u00ed ob\u010dansk\u00e1 vybavenost. Jen p\u00e1r krok\u016f od domu se nach\u00e1z\u00ed \u0161kola, \u0161kolka, po\u0161ta i obchody denn\u00ed pot\u0159eby a p\u0159edev\u0161\u00edm historick\u00e9 centrum Brna.\r\nDokon\u010den\u00ed 12/2016 (dle po\u017eadavku klienta). \r\nFinancov\u00e1n\u00ed V\u00e1m zdarma zajist\u00edme, hypot\u00e9ka s v\u00fdhodn\u00fdmi podm\u00ednkami. Ru\u010den\u00ed kupovan\u00fdm objektem. \r\nPro prohl\u00eddku a vice info kontaktujte makl\u00e9\u0159e.\r\nDal\u0161\u00ed nab\u00eddky p\u016fdn\u00edch byt\u016f na:   NovePudniByty.cz \r\nOstatn\u00ed nemovitost na:   attiko.cz\r\nByt \u010d. 25\r\n3+kk, CP 95 m2, (byt 72 m2 + terasa 23 m2)\u2026\u2026\u2026\u2026\u2026\u2026\u2026 cena: rezervace\r\nI. podla\u017e\u00ed bytu: ob\u00fdvac\u00ed pokoj s kuchy\u0148sk\u00fdm koutem 31 m2, pokoj 11 m2, koupelna s vanou 4 m2, samostatn\u00e9 WC, p\u0159eds\u00ed\u0148.\r\nII. podla\u017e\u00ed bytu: mal\u00e1 galerie se vstupem na terasu, pokoj 12 m2, technick\u00e1 m\u00edstnost (\u0161atna), terasa 23 m2. \r\nPosledn\u00ed volny byt v projektu:\r\nByt \u010d. 21\r\n4+kk, CP 166 m2, (byt 113 m2 + terasa 53 m2)\u2026\u2026\u2026\u2026\u2026\u2026\u2026 cena: rezervace\r\nI. podla\u017e\u00ed bytu: ob\u00fdvac\u00ed pokoj s kuchy\u0148sk\u00fdm koutem 50 m2, pokoj 13 m2, koupelna s vanou a sprchov\u00fdm koutem 5 m2, samostatn\u00e9 WC, technick\u00e1 m\u00edstnost, p\u0159eds\u00ed\u0148.\r\nII. podla\u017e\u00ed bytu: mal\u00e1 galerie se vstupem na terasu, lo\u017enice 14 m2, pokoj 22 m2 se vstupem na terasu s koupelnou se sprchou a WC 2 m2, terasa 53 m2.\r\n"
+  },
+  "price_czk": {
+    "unit": "",
+    "name": "Celkov\u00e1 cena",
+    "value": "5\u00a0900\u00a0000",
+    "value_raw": 5900000
+  },
+  "is_topped": false,
+  "_links": {
+    "self": {
+      "profile": "/estates/1/doc",
+      "href": "/cs/v2/estates/2733695324",
+      "title": "Detail inzeratu"
+    },
+    "local_search": {
+      "href": "/cs/v2/estates?category_main_cb=1&region=Brno&region_entity_type=osmm&category_type_cb=1",
+      "title": "Prodej byt\u016f Brno"
+    },
+    "broader_search": {
+      "href": "/cs/v2/estates?category_main_cb=1&locality_district_id=72&category_type_cb=1",
+      "title": "Prodej byt\u016f Brno-m\u011bsto"
+    }
+  },
+  "panorama": 1,
+  "seo": {
+    "category_main_cb": 1,
+    "category_sub_cb": 6,
+    "category_type_cb": 1,
+    "locality": "brno-brno-mesto-"
+  },
+  "rus": false,
+  "is_topped_today": false,
+  "items": [
+    {
+      "negotiation": false,
+      "name": "Celkov\u00e1 cena",
+      "notes": [],
+      "value": "5\u00a0900\u00a0000",
+      "currency": "K\u010d",
+      "type": "price_czk",
+      "unit": "za nemovitost"
+    },
+    {
+      "type": "string",
+      "name": "Pozn\u00e1mka k cen\u011b",
+      "value": "Rezervace"
+    },
+    {
+      "type": "string",
+      "name": "ID zak\u00e1zky",
+      "value": "ATT1P11112"
+    },
+    {
+      "type": "edited",
+      "name": "Aktualizace",
+      "value": "27.02.2018",
+      "topped": false
+    },
+    {
+      "type": "string",
+      "name": "Stavba",
+      "value": "Cihlov\u00e1"
+    },
+    {
+      "type": "string",
+      "name": "Stav objektu",
+      "value": "Po rekonstrukci"
+    },
+    {
+      "type": "string",
+      "name": "Vlastnictv\u00ed",
+      "value": "Osobn\u00ed"
+    },
+    {
+      "type": "string",
+      "name": "Podla\u017e\u00ed",
+      "value": "4. podla\u017e\u00ed"
+    },
+    {
+      "unit": "m2",
+      "type": "area",
+      "name": "U\u017eitn\u00e1 plocha",
+      "value": "93"
+    },
+    {
+      "unit": "m2",
+      "type": "area",
+      "name": "Plocha podlahov\u00e1",
+      "value": "93"
+    },
+    {
+      "type": "boolean",
+      "name": "Terasa",
+      "value": true
+    },
+    {
+      "type": "boolean",
+      "name": "Parkov\u00e1n\u00ed",
+      "value": true
+    },
+    {
+      "type": "energy_efficiency_rating",
+      "name": "Energetick\u00e1 n\u00e1ro\u010dnost budovy",
+      "value": "T\u0159\u00edda B - Velmi \u00fasporn\u00e1 \u010d. 78/2013 Sb. podle vyhl\u00e1\u0161ky"
+    }
+  ],
+  "codeItems": {
+    "something_more2": [
+      3140
+    ],
+    "something_more1": [
+      3110
+    ],
+    "ownership": 1,
+    "building_type_search": 2
+  },
+  "locality_district_id": 72
+}

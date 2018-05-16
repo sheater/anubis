@@ -1,0 +1,5 @@
+{
+  "verbose": true,
+  "ignore": ["neo4j/*", "fixtures/*", "node_modules/*"],
+  "watch": "src"
+}
