@@ -1,8 +1,0 @@
-A - aggregation, analytic, advanced, asset, appraisal, automated
-N - network, numeric
-U - uniform, unified, unit, utility
-B - business, broker
-I - integration, information, inquire
-S - system, statistic
-
-Asset numerical utility & broking inquire system

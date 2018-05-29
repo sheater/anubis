@@ -16,6 +16,7 @@ import Quantities from './Stats/scenes/Quantities/Quantities'
 import Correlation from './Stats/scenes/Correlation/Correlation'
 import Heatmaps from './Stats/scenes/Heatmaps/Heatmaps'
 import Streets from './Stats/scenes/Streets/Streets'
+import Samples from './Stats/scenes/Samples/Samples'
 import Evaluate from './Evaluate'
 
 const query = gql`
@@ -51,6 +52,7 @@ class Root extends React.PureComponent {
             <Route path="/stats/quantities" component={Quantities} />
             <Route path="/stats/heatmaps" component={Heatmaps} />
             <Route path="/stats/streets" component={Streets} />
+            <Route path="/stats/samples" component={Samples} />
             <Route path="/evaluate" component={Evaluate} />
           </Switch>
         </Layout>

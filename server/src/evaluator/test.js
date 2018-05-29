@@ -18,12 +18,13 @@ function priceRangeErrorChalk(range) {
   }
 }
 
-const PRICE_RANGE_ERROR_BIN_SIZE = 100000
+const PRICE_RANGE_ERROR_BIN_SIZE = 250000
 
 function test (items) {
   console.log(`testing on ${items.length}`)
 
   const stats = createStatsObject(items)
+  // console.log("stat", stats)
 
   const priceRanges = []
 
@@ -34,16 +35,16 @@ function test (items) {
     const priceRangeError = Math.abs(item.price - res.estimatedPrice)
 
     priceRanges.push(priceRangeError)
-    // const c = priceRangeError > 500000 ? chalk.red : chalk.default
-    console.log(
-      'ORIG', item.price,
-      'EST', res.estimatedPrice,
-      'ERR', priceRangeErrorChalk(item.price - res.estimatedPrice),
-      ';',
-      item.addressPath.join(','),
-      ';',
-      item.originalUrl
-    )
+
+    // console.log(
+    //   'ORIG', item.price,
+    //   'EST', res.estimatedPrice,
+    //   'ERR', priceRangeErrorChalk(item.price - res.estimatedPrice),
+    //   ';',
+    //   item.addressPath.join(','),
+    //   ';',
+    //   item.originalUrl
+    // )
   }
 
   console.log('test done')

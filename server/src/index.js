@@ -155,8 +155,6 @@ program.command('transform <source>')
             { unit: 'meter' }
           )
 
-          // console.log('DDDD', addressPath, d, downtown)
-
           Object.assign(competitor, {
             originalUrl: snapshot.originalUrl,
             source: snapshot.adapterName,
@@ -187,34 +185,12 @@ program.command('transform <source>')
     }
   })
 
-program.command('extract <source>')
-  .option('-d, --dry-run', 'Dry run')
-  .option('-n, --number <n>', 'Number of items to scrape', 20)
-  .action(async (source, opts) => {
-    try {
-      const adapter = getAdapter(source)
-      const startUrl = START_URL_ADAPTER_MAP[source]
-      const number = Number.parseInt(opts.number)
-
-      if (!startUrl) {
-        throw new Error("No available start url")
-      }
-
-      const observable = scrape(adapter, startUrl, number)
-
-      console.log('kokot', adapter)
-    } catch (err) {
-      console.log(chalk.red('ERROR'), err)
-    }
-  })
-
 const test = require('./evaluator/test')
 
 program.command('test')
   .action(async () => {
     try {
       const items = (await dao.competitor.listAll(neo4j))
-        // .filter(x => R.last(x.addressPath) !== "Brno")
       test(items)
     }
     catch (error) {
@@ -222,6 +198,36 @@ program.command('test')
     }
   })
 
+const fs = require('fs')
+
+program.command('export-competitors')
+  .action(async () => {
+    try {
+      const items = await dao.competitor.listAll(neo4j)
+
+      const data = items.reduce((acc, x) => {
+        const row = [
+          x.numRooms,
+          x.kitchenType,
+          x.price,
+          x.size,
+          x.address,
+          x.flatCondition,
+          x.ownershipType ? x.ownershipType : 'OTHER',
+          x.constructionType,
+        ].map(y => `"${y}"`)
+
+        return `${acc}${row.join(',')},\n`
+      }, '')
+
+      fs.writeFileSync('./competitors.csv', data);
+
+      console.log(chalk.green('done'))
+    }
+    catch (err) {
+      console.log(chalk.red('ERROR'), err)
+    }
+  })
 
 program.command('print-address-paths')
   .option('-i, --index <n>', 'Index')
@@ -248,277 +254,51 @@ program.command('print-address-paths')
     }
   })
 
-// program.command('sample-num-competitors-test')
-//   .action(async () => {
-//     try {
-//       const items = await dao.competitor.listAll(neo4j)
-//
-//       console.log('Total accuracy', test(items) * 100, '%')
-//     }
-//     catch (error) {
-//       console.log(chalk.red('ERROR'), error)
-//     }
-//   })
-//
-// const { AspectType } = require('./common/consts')
-//
-// const GENS = [
-//   [AspectType.SIZE],
-//   [AspectType.NUM_ROOMS],
-//   [AspectType.KITCHEN_TYPE],
-//   [AspectType.OWNERSHIP_TYPE],
-//   [AspectType.FLAT_CONDITION],
-//   [AspectType.CONSTRUCTION_TYPE],
-//   [AspectType.FLOOR_NUM],
-//   [AspectType.BASEMENT],
-// ]
-//
-// function selectByFitness(population, count = 2) {
-//   const selection = []
-//   const fitnessSum = population.reduce((acc, x) => acc + x.fitness, 0)
-//
-//   while (selection.length < Math.min(population.length, count)) {
-//     const r = Math.random() * fitnessSum
-//
-//     let acc = 0
-//     const item = population.find(x => {
-//       if (r > acc && r < acc + x.fitness) {
-//         return true
-//       }
-//       acc += x.fitness
-//     })
-//
-//     if (item && !selection.includes(item)) {
-//       selection.push(item)
-//     }
-//   }
-//
-//   return selection
-// }
-//
-// function crossSample(sample, count = 2) {
-//   return R.times(() => {
-//     const s = selectByFitness(sample, 2)
-//     const a = R.head(s)
-//     const b = R.last(s)
-//     const keys = Object.keys(a)
-//     return keys.reduce((acc, key) => {
-//       acc[key] = a[key] * b[key]
-//       return acc
-//     }, {})
-//   }, count)
-// }
-//
-// function mutateSample(sample, count = 2) {
-//   const mutated = sample.slice()
-//
-//   for (let i = 0; i < count; i++) {
-//     const idx = Math.floor(Math.random() * mutated.length)
-//     const x = mutated[idx]
-//     const keys = Object.keys(x)
-//     const key = keys[Math.floor(Math.random() * keys.length)]
-//
-//     x[key] = 1 - x[key]
-//   }
-//
-//   return mutated
-// }
-//
-// function crossover(parents) {
-//   return Object.keys(R.head(parents)).reduce((acc, key) => {
-//     acc[key] = parents[Math.floor(Math.random() * parents.length)][key]
-//     return acc
-//   }, {})
-// }
-//
-// function mutate(individual) {
-//   const keys = Object.keys(individual)
-//   const key = keys[Math.floor(Math.random() * keys.length)]
-//   individual[key] = Math.random()
-// }
-//
-// function roundNum(num, dec = 100) {
-//   return Math.round(num * dec) / dec
-// }
-//
-// program.command('gen')
-//   .option('-p, --population [n]', 'Population size', '10')
-//   .option('-g, --generations [n]', 'Max generations', '50')
-//   .description('calculate aspect weights')
-//   .action(async (opts) => {
-//     const items = await dao.competitor.listAll(neo4j)
-//
-//     const populationSize = Number.parseInt(opts.population)
-//     const maxGenerations = Number.parseInt(opts.generations)
-//     let population = Array.from(new Array(populationSize))
-//       .map(() => (GENS.reduce((acc, x) => {
-//         acc[x] = Math.random()
-//         return acc
-//       }, {})))
-//
-//     let bestAverageFitness = 0
-//     let previousAverageFitness = 0
-//     let bestPopulation = null
-//     let longTermFall = 0
-//     // const populationsFitness = []
-//
-//     let i = 1
-//     while (1) {
-//       console.log('- generation', i)
-//       const fitnessMap = new Map(population.map(x => [x, test(items, x, 100)]))
-//       const averageFitness = R.mean(Array.from(fitnessMap.values()))
-//
-//       // populationsFitness.push(averageFitness)
-//
-//       if (averageFitness > previousAverageFitness) {
-//         longTermFall = 0
-//         if (averageFitness > bestAverageFitness) {
-//           console.log(chalk.blue('New best population!'))
-//           bestAverageFitness = averageFitness
-//           bestPopulation = population
-//         }
-//       }
-//       else {
-//         longTermFall += previousAverageFitness - averageFitness
-//         if (longTermFall > 0.1) {
-//           console.log(chalk.yellow('Long term fall... falling back to previous best population!'))
-//           longTermFall = 0
-//           population = bestPopulation
-//         }
-//       }
-//
-//       // console.log('fitness', Array.from(fitnessMap.values()))
-//       console.log(
-//         'populationFitness', roundNum(averageFitness),
-//         '|', averageFitness > previousAverageFitness
-//           ? chalk.green(roundNum(averageFitness - previousAverageFitness))
-//           : chalk.red(roundNum(previousAverageFitness - averageFitness))
-//       )
-//
-//       population.sort((a, b) => fitnessMap.get(b) - fitnessMap.get(a))
-//       if (++i > maxGenerations) {
-//         break
-//       }
-//       // console.log('sorted', population.map(x => fitnessMap.get(x)))
-//       //
-//       // const halfCount = Math.floor(population.length / 2)
-//       // console.log('half', half)
-//       // const parents = population.filter(x => fitnessMap.get(x) > averageFitness * 0.6)
-//       const parents = population.slice(0, 2)
-//       population[population.length - 1] = crossover(parents)
-//       population[population.length - 2] = crossover(parents)
-//
-//       if (Math.random() < 0.2) {
-//         mutate(population[Math.floor(Math.random() * population.length)])
-//       }
-//
-//       previousAverageFitness = averageFitness
-//       // population.forEach((individual, i) => {
-//       //   const fitness = fitnessMap.get(individual)
-//       //
-//       //   if (fitness < averageFitness / 2) {
-//       //     population[i] = crossover(population.slice(0, 2))
-//       //   }
-//       // })
-//       // break
-//       // console.log('populationFitness', populationFitness)
-//       //
-//       // const selection = selectByFitness(population, Math.floor(populationSize / 2))
-//       // const newPopulation = crossSample(selection, populationSize)
-//       // population = newPopulation
-//     }
-//     //
-//     // const winner = R.reduce(
-//     //   (acc, x) => acc && acc.fitness > x.fitness ? acc : x
-//     // , null)(population)
-//
-//     // Array.from(fitnessMap.entries())
-//
-//     // console.log('pop', bestPopulation)
-//
-//     const populationMap = new Map(bestPopulation.map(x => [test(items, x, 100), x]))
-//     const max = Math.max(...Array.from(populationMap.keys()))
-//     const winner = populationMap.get(max)
-//     console.log(chalk.bgGreen('WINNER'), max, winner)
-//     // console.log('avg', R.mean(population.map(x => x.fitness)))
-//   })
-//
-// function linearRegression(x, y) {
-//   const mapIndexed = R.addIndex(R.map)
-//   const n = x.length
-//
-//   const denominator = (n * R.sum(x.map(x => x * x)) - Math.pow(R.sum(x), 2))
-//   const sumxy = R.sum(mapIndexed((xi, i) => xi * y[i])(x))
-//   const alpha = (n * sumxy - R.sum(x) * R.sum(y)) / denominator
-//   const beta = (R.sum(x.map(x => x * x)) * R.sum(y) - R.sum(x) * sumxy) / denominator
-//
-//   return { alpha, beta }
-// }
-//
-// program.command('approx')
-//   .option('-i, --iterations [n]', 'Number of iterations', '100')
-//   .option('-p, --points [n]', 'Number of division points for weight scale', '5')
-//   .option('-r, --refresh-rate [n]', 'Refresh each n-th iteration', '4')
-//   .description('calculate aspect weights')
-//   .action(async (opts) => {
-//     const items = await dao.competitor.listAll(neo4j)
-//     const numIterations = Number.parseInt(opts.iterations)
-//     const numPoints = Number.parseInt(opts.points)
-//     const refreshRate = Number.parseInt(opts.refreshRate)
-//
-//     const weights = GENS.reduce((acc, x) => {
-//       acc[x] = {
-//         alpha: null,
-//         value: 0.5,
-//         step: 0.000001,
-//       }
-//       return acc
-//     }, {})
-//
-//     const testWrapped = (key, value) => {
-//       const w = R.mapObjIndexed(R.prop('value'))(weights)
-//       if (key) {
-//         w[key] = value
-//       }
-//
-//       return test(items, w)
-//     }
-//
-//     const resolveAlphas = () => {
-//       for (const key of Object.keys(weights)) {
-//         const segmentSize = 1 / (numPoints - 1)
-//         const segments = R.times(R.identity, numPoints).map(x => x * segmentSize)
-//         const fitnesses = segments.map(x => testWrapped(key, x))
-//         const { alpha } = linearRegression(segments, fitnesses)
-//
-//         weights[key].alpha = alpha
-//       }
-//     }
-//
-//     resolveAlphas()
-//
-//     for (let i = 0; i < numIterations; i++) {
-//       let previousFitness = await testWrapped()
-//       console.log(chalk.blue('iteration'), i, 'fitness', roundNum(previousFitness, 10000))
-//
-//       for (const key of Object.keys(weights)) {
-//         const weight = weights[key]
-//
-//         const value = weight.value + weight.step / weight.alpha
-//         const fitness = testWrapped(key, value)
-//         weight.step = fitness - previousFitness
-//         console.log('value', value, 'delta', weight.step)
-//
-//         weight.value = weight.value + weight.step / weight.alpha
-//         previousFitness = fitness
-//         console.log(key, 'adjusted to',
-//           weight.step >= 0
-//             ? chalk.green(roundNum(weight.value, 1000))
-//             : chalk.red(roundNum(weight.value, 1000)),
-//           'diff', weight.step)
-//       }
-//     }
-//     console.log(chalk.green('FINAL'), weights)
-//   })
+program.command('analyze-descriptions')
+  .action(async () => {
+    try {
+      // const promises = .map(x => dao.snapshot.list(neo4j, x))
+      const sources = [
+        'reality.idnes.cz',
+        'realitymix.centrum.cz',
+        'sreality.cz',
+      ]
+      const list = []
+
+      for (const source of sources) {
+        const res = await dao.snapshot.list(neo4j, source)
+
+        list.push(...res)
+      }
+
+      const words = R.pipe(
+        R.map(x => x.description),
+        R.filter(R.identity),
+        R.map(R.split(' ')),
+        R.flatten,
+        R.map(R.toLower),
+        R.map(R.replace(/[\.\,]$/g, '')),
+        R.filter(x => x.length > 2),
+        R.reduce((acc, x) => {
+          if (acc.hasOwnProperty(x)) {
+            acc[x]++
+          }
+          else {
+            acc[x] = 1
+          }
+          return acc
+        }, {}),
+        R.mapObjIndexed((count, word) => ({ word, count })),
+        Object.values,
+        R.sortBy(x => x.count),
+        R.reverse,
+      )(list)
+
+      console.log('items', words)
+    }
+    catch (err) {
+      console.log(chalk.red('ERROR'), err)
+    }
+  })
 
 program.parse(process.argv)

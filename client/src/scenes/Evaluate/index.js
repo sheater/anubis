@@ -169,71 +169,53 @@ class Evaluate extends React.Component {
                 )}
               </FormItem>
 
-              {/*<FormItem {...formItemLayout} label="Rooms">*/}
-                {/*{getFieldDecorator('rooms', {*/}
-                  {/*initialValue: R.head(rooms),*/}
-                {/*})(*/}
-                  {/*<Select>*/}
-                    {/*{rooms.map(x => <Select.Option key={x} value={x}>{x}</Select.Option>)}*/}
-                  {/*</Select>*/}
-                {/*)}*/}
-              {/*</FormItem>*/}
+              <FormItem {...formItemLayout} label="Rooms">
+                {getFieldDecorator('rooms', {
+                  initialValue: R.head(rooms),
+                })(
+                  <Select>
+                    {rooms.map(x => <Select.Option key={x} value={x}>{x}</Select.Option>)}
+                  </Select>
+                )}
+              </FormItem>
 
-              {/*<FormItem {...formItemLayout} label="Ownership">*/}
-                {/*{getFieldDecorator('ownershipType', {*/}
-                  {/*initialValue: '',*/}
-                {/*})(*/}
-                  {/*<Select allowClear>*/}
-                    {/*<Select.Option value="personal">Personal</Select.Option>*/}
-                    {/*<Select.Option value="society">Society</Select.Option>*/}
-                  {/*</Select>*/}
-                {/*)}*/}
-              {/*</FormItem>*/}
+              <FormItem {...formItemLayout} label="Ownership">
+                {getFieldDecorator('ownershipType', {
+                  initialValue: '',
+                })(
+                  <Select allowClear>
+                    <Select.Option value="PERSONAL">Personal</Select.Option>
+                    <Select.Option value="SOCIETY">Society</Select.Option>
+                  </Select>
+                )}
+              </FormItem>
 
-              {/*<FormItem {...formItemLayout} label="Condition">*/}
-                {/*{getFieldDecorator('flatCondition', {*/}
-                  {/*initialValue: '',*/}
-                {/*})(*/}
-                  {/*<Select allowClear>*/}
-                    {/*<Select.Option value="NEW">New</Select.Option>*/}
-                    {/*<Select.Option value="VERY_GOOD">Very good</Select.Option>*/}
-                    {/*<Select.Option value="GOOD">Good</Select.Option>*/}
-                    {/*<Select.Option value="AFTER_RECONSTRUCTION">After reconstruction</Select.Option>*/}
-                    {/*<Select.Option value="BEFORE_RECONSTRUCTION">Before reconstruction</Select.Option>*/}
-                    {/*<Select.Option value="BUILDING">Under construction</Select.Option>*/}
-                  {/*</Select>*/}
-                {/*)}*/}
-              {/*</FormItem>*/}
+              <FormItem {...formItemLayout} label="Condition">
+                {getFieldDecorator('flatCondition', {
+                  initialValue: '',
+                })(
+                  <Select allowClear>
+                    <Select.Option value="NEW">New</Select.Option>
+                    <Select.Option value="VERY_GOOD">Very good</Select.Option>
+                    <Select.Option value="GOOD">Good</Select.Option>
+                    <Select.Option value="AFTER_RECONSTRUCTION">After reconstruction</Select.Option>
+                    <Select.Option value="BEFORE_RECONSTRUCTION">Before reconstruction</Select.Option>
+                    <Select.Option value="BUILDING">Under construction</Select.Option>
+                  </Select>
+                )}
+              </FormItem>
 
-              {/*<FormItem {...formItemLayout} label="Construction">*/}
-                {/*{getFieldDecorator('constructionType', {*/}
-                  {/*initialValue: '',*/}
-                {/*})(*/}
-                  {/*<Select allowClear>*/}
-                    {/*<Select.Option value="PANEL">Panel</Select.Option>*/}
-                    {/*<Select.Option value="BRICK">Brick</Select.Option>*/}
-                    {/*<Select.Option value="SKELETON">Skelet</Select.Option>*/}
-                    {/*<Select.Option value="WOOD">Wood</Select.Option>*/}
-                    {/*<Select.Option value="MIX">Mix</Select.Option>*/}
-                  {/*</Select>*/}
-                {/*)}*/}
-              {/*</FormItem>*/}
-
-              {/*<FormItem {...formItemLayout} label="Floor number">*/}
-                {/*{getFieldDecorator('floorNum', {*/}
-                  {/*initialValue: 3,*/}
-                {/*})(*/}
-                  {/*<InputNumber min={0} />*/}
-                {/*)}*/}
-              {/*</FormItem>*/}
-
-              {/*<FormItem {...tailFormItemLayout}>*/}
-                {/*{getFieldDecorator('basement', {*/}
-                  {/*initialValue: false,*/}
-                {/*})(*/}
-                  {/*<Checkbox>Basement</Checkbox>*/}
-                {/*)}*/}
-              {/*</FormItem>*/}
+              <FormItem {...formItemLayout} label="Construction">
+                {getFieldDecorator('constructionType', {
+                  initialValue: '',
+                })(
+                  <Select allowClear>
+                    <Select.Option value="PANEL">Panel</Select.Option>
+                    <Select.Option value="BRICK">Brick</Select.Option>
+                    <Select.Option value="MIX">Mix</Select.Option>
+                  </Select>
+                )}
+              </FormItem>
 
               <FormItem {...tailFormItemLayout}>
                 <Button type="primary" htmlType="submit" loading={loading}>Evaluate</Button>
@@ -302,17 +284,15 @@ export default compose(
 
         props.setLoading(true)
 
-        const rooms = '1+KK'//values.rooms.split('+')
+        const rooms = values.rooms.split('+')
         const numRooms = Number.parseInt(R.head(rooms))
         const kitchenType = R.last(rooms)
-        const basement = Boolean(values.basement)
         const attributes = R.pipe(
           R.pick([
             'address', 'size', 'ownershipType',
             'flatCondition', 'constructionType',
-            'floorNum', 'condition', 'flatCondition'
           ]),
-          R.merge({ numRooms, kitchenType, basement })
+          R.merge({ numRooms, kitchenType })
         )(values)
 
         props.client.query({

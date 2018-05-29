@@ -54,6 +54,7 @@ const Nav = ({ global, onClick }) => {
           <Menu.Item key="stats/correlation">correlation</Menu.Item>
           <Menu.Item key="stats/heatmaps">heatmaps</Menu.Item>
           <Menu.Item key="stats/streets">streets</Menu.Item>
+          <Menu.Item key="stats/samples">samples</Menu.Item>
         </SubMenu>
         <Menu.Item key="evaluate">
           <Icon type="cloud-o"/>

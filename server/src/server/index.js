@@ -10,6 +10,7 @@ const evaluate = require('../evaluator/evaluate')
 const neo4j = require('../common/neo4j')
 const dao = require('../common/dao')
 const { geocode, extractAddressPathFromAddressComponents } = require('../common/googleMaps')
+const createStatsObject = require("../evaluator/createStatsObject")
 
 const app = new Koa()
 
@@ -75,9 +76,9 @@ const schema = buildSchema(`
   type Evaluation {
     competitors: [Entity]
     # outliers: [Entity]
-    estimatedPrice: Int
-    estimatedUnitPrice: Int
-    standardDeviation: Int
+    estimatedPrice: Float
+    estimatedUnitPrice: Float
+    standardDeviation: Float
   }
 
   input EvaluationAttributes {
@@ -228,10 +229,10 @@ const resolver = {
     const addressPath =
       extractAddressPathFromAddressComponents(address_components)
     const coords = [geometry.location.lat, geometry.location.lng]
-
     const target = Object.assign({}, attributes, { addressPath, coords })
+    const stats = createStatsObject(competitors)
 
-    return evaluate(target, competitors)
+    return evaluate(target, competitors, stats)
   },
 
   global: async () => {

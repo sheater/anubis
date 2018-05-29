@@ -24,12 +24,14 @@ function createStatsObject (items) {
   const constructionType = createAspectScale("constructionType")(items)//averageUnitPriceByAspect("constructionType")(items)
   const flatCondition = createAspectScale("flatCondition")(items)
   const kitchenType = createAspectScale("kitchenType")(items)
+  const ownershipType = createAspectScale("ownershipType")(items)
   // const basement = createAspectScale("basement")(items)
 
   return {
     constructionType,
     flatCondition,
     kitchenType,
+    ownershipType,
     // basement,
   }
 }

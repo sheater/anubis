@@ -4,23 +4,26 @@ const grubbsTest = require('../utils/grubbsTest')
 
 const NUM_COMPETITORS = 7
 
+const ASPECT_WEIGHTS = {
+  size: 4.7,
+  flatCondition: 0.5,
+  numRooms: 0.2,
+  kitchenType: 0.2,
+  constructionType: 0.2,
+  ownershipType: 0.1,
+}
+
 function getAspectCoeff (aspectName, attrs, competitor, stats) {
   if (attrs[aspectName] && competitor[aspectName]) {
-    const ours = stats[aspectName].find(x => x.key === attrs[aspectName]).mean
-    const theirs = stats[aspectName].find(x => x.key === competitor[aspectName]).mean
+    const ours = stats[aspectName].find(x => x.key === attrs[aspectName])
+    const theirs = stats[aspectName].find(x => x.key === competitor[aspectName])
 
-    return ours / theirs
+    if (ours && theirs) {
+      return ours.mean / theirs.mean
+    }
   }
 
   return 1
-}
-
-const ASPECT_WEIGHTS = {
-  size: 4.5,
-  numRooms: 0.2,
-  kitchenType: 0.4,
-  constructionType: 0.2,
-  flatCondition: 0.5,
 }
 
 function evaluate (attrs, items, stats) {
@@ -56,7 +59,8 @@ function evaluate (attrs, items, stats) {
         numRooms: attrs.numRooms / c.numRooms,
         kitchenType: getAspectCoeff("kitchenType", attrs, c, stats),
         constructionType: getAspectCoeff("constructionType", attrs, c, stats),
-        flatCondition: getAspectCoeff("flatCondition", attrs, c, stats)
+        flatCondition: getAspectCoeff("flatCondition", attrs, c, stats),
+        ownershipType: getAspectCoeff("ownershipType", attrs, c, stats)
       }
 
       const numerator = R.pipe(
@@ -87,9 +91,9 @@ function evaluate (attrs, items, stats) {
     },
   )(aspiringCompetitors)
 
-  const estimatedUnitPrice = Math.round(R.mean(competitors.map(x => x.price / x.size * x.index)))
   const standardDeviation = Math.round(statUtils.standardDeviation(competitors.map(x => x.price)))
   const estimatedPrice = Math.round(R.mean(competitors.map(x => x.price * x.index)))
+  const estimatedUnitPrice = estimatedPrice / attrs.size
 
   return {
     competitors,
