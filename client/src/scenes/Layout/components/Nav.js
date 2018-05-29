@@ -61,7 +61,6 @@ const Nav = ({ global, onClick }) => {
           <span className="nav-text">evaluate</span>
         </Menu.Item>
       </Menu>
-      {/*<Alert style={{ margin: '10px' }} message="VUT USI 2018, created by Stephen Skovajsa" type="info" />*/}
     </Layout.Sider>
   )
 }

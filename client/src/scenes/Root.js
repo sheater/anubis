@@ -31,34 +31,29 @@ const query = gql`
 
 const rootGraphql = graphql(query)
 
-class Root extends React.PureComponent {
-  render() {
-    const { global } = this.props
-
-    if (this.props.loading) {
-      return <RootLoader />
-    }
-    else {
-      return (
-        <Layout global={global}>
-          <Switch>
-            <Route path="/" exact component={Mining} />
-            <Route path="/mining" exact component={Mining} />
-            <Route path="/snapshots/:adapter" component={Snapshots} />
-            <Route path="/aspects" component={Aspects} />
-            <Route path="/competitors" component={Competitors} />
-            <Route path="/stats/prices" component={Prices} />
-            <Route path="/stats/correlation" component={Correlation} />
-            <Route path="/stats/quantities" component={Quantities} />
-            <Route path="/stats/heatmaps" component={Heatmaps} />
-            <Route path="/stats/streets" component={Streets} />
-            <Route path="/stats/samples" component={Samples} />
-            <Route path="/evaluate" component={Evaluate} />
-          </Switch>
-        </Layout>
-      )
-    }
+const Root = ({ global, loading }) => {
+  if (loading) {
+    return <RootLoader />
   }
+
+  return (
+    <Layout global={global}>
+      <Switch>
+        <Route path="/" exact component={Mining} />
+        <Route path="/mining" exact component={Mining} />
+        <Route path="/snapshots/:adapter" component={Snapshots} />
+        <Route path="/aspects" component={Aspects} />
+        <Route path="/competitors" component={Competitors} />
+        <Route path="/stats/prices" component={Prices} />
+        <Route path="/stats/correlation" component={Correlation} />
+        <Route path="/stats/quantities" component={Quantities} />
+        <Route path="/stats/heatmaps" component={Heatmaps} />
+        <Route path="/stats/streets" component={Streets} />
+        <Route path="/stats/samples" component={Samples} />
+        <Route path="/evaluate" component={Evaluate} />
+      </Switch>
+    </Layout>
+  )
 }
 
 export default compose(
