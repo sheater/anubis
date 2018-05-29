@@ -25,7 +25,8 @@ npm install
 ```
 ## Running
 ### Fill database
-Here is some tricky commands to fill database and another useful functions
+Here is some tricky commands to fill database and another useful functions  
+**NOTE**: Neo4j server must be running before you run any command
 ```bash
 cd server
 
@@ -50,11 +51,15 @@ cd server
 ```
 ### Running servers
 ```bash
+# run neo4j server
 cd server/neo4j
 ./run.sh
+# run api server
 cd ..
 npm start
+# run client server
 cd ../client
 npm start
 ```
+
 That's all folks!
