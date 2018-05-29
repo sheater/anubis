@@ -78,10 +78,9 @@ module.exports = {
       size: x.get('size')
     }))
 
-    // console.log('kokot', records)
     const averagePrice = R.pipe(R.pluck('price'), R.mean)(competitors)
     const unitCompetitors = R.map(x => x.price / x.size)(competitors)
-    // console.log('unitCompetitors', unitCompetitors)
+
     const averageUnitPrice = R.mean(unitCompetitors)
     const minUnitPrice = unitCompetitors.reduce((acc, x) => {
       return x < acc ? x : acc

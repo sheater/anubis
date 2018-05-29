@@ -50,9 +50,11 @@ cd server
 ```
 ### Running servers
 ```bash
-cd server
+cd server/neo4j
+./run.sh
+cd ..
 npm start
 cd ../client
 npm start
 ```
-That's all!
+That's all folks!
